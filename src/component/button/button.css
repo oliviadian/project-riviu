@@ -1,0 +1,7 @@
+/* button style */
+.submit-button {
+    font-weight: bold !important;
+    border: none !important;
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.37) !important;
+    /* border-radius: 10px !important; */
+}
