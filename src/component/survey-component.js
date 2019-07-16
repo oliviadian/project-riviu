@@ -23,7 +23,7 @@ function SurveyComponent({
             </span>
           </Col>
         </Row>          
-        <Row className="surpei">          
+        <Row className="pd-10 pl-20">          
           <Col span={24} className="pd-5">
             <label for="name" className="desc-text" style={{display: "block"}}>
               Nama Pelanggan
@@ -102,6 +102,7 @@ function SurveyComponent({
                 height="38px"
                 color="#479094"
                 backgroundColor="#e3e3e3"
+                href="FeedbackComponent"
             />
           </Col>
       </Row>

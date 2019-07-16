@@ -41,6 +41,7 @@ function TicketComponent({
                                 name="code"
                                 text="Ticket Code"
                                 width="400px"
+                                href="SurveyComponent"
                             />
                         </Col>
                         <Col span={24} className="pd-20">
