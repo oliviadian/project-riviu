@@ -2,12 +2,12 @@
 .main-container {
     height: 100vh;
     padding: 50px; 
-    background: rgb(177, 176, 176);
+    background: rgb(240, 53, 53);
 }
 
 .container-component {
     margin: 0px auto;
-    width: 1100px;
+    width: 1200px;
     height: 600px;
     background: white;
 }
@@ -25,7 +25,7 @@
 
 /*background style*/
 .background-blue {
-    background-color: rgb(95, 159, 243);
+    background-color: rgb(199, 199, 199);
 }
 
 /*padding style*/
@@ -147,8 +147,8 @@
 .surpei{
     text-align: center;
     padding: 10px;
-    padding-left: 20px;
-
+    padding-left: 340px;
+    font-size: 20px;
 }
 
 .Input {
