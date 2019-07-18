@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
+import lokasii from './lokasii';
 import IconButton from './button/icon-button'
 import SubmitButton from './button/submit-button'
 import InputBottom from './input/input-bottom';
 import InputRate from './input/input-rate';
-import InputBassic from './input/input-basic';
 
 function SurveyComponent({
     kode
@@ -139,6 +139,9 @@ function SurveyComponent({
                         backgroundColor="#e3e3e3"
                     /><p/>
                   </Link>
+              </Col>
+              <Col span={24} className="surpei"> 
+                <lokasii/>
               </Col>
           </Row>
         </div>
