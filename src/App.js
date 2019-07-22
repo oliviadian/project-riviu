@@ -6,6 +6,7 @@ import TicketComponent from './component/ticket-component'
 import LoginComponent from './component/login-component'
 import FeedbackComponent from './component/feedback-component';
 import SurveyComponent from './component/survey-component';
+import PelangganComponent from './component/form-pelanggan';
 
 function App() {
   return (
@@ -32,6 +33,13 @@ function App() {
         <Route path="/survey" render={(props) => 
             <SurveyComponent {...props}
               kode="KB149JJ"
+              teks="FORM INI DIISI OLEH TEKNISI"
+            />
+        }/>
+        <Route path="/pelanggan" render={(props) => 
+            <PelangganComponent {...props}
+              kode="KB149JJ"
+              judul="SURVEY INI DIISI OLEH PELANGGAN"
             />
         }/>
         <Route path="/feedback" render={(props) => 
